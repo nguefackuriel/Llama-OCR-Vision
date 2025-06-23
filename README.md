@@ -63,6 +63,8 @@ python main.py ordo_2.jpg ordo_2_res_free.md
 streamlit run streamlit_app.py
 ```
 
-Interface of the streamlit App.
+
+**Interface of the streamlit App.**
+
 
 ![alt text](https://github.com/nguefackuriel/Llama-OCR-Vision/blob/main/interface.png)
