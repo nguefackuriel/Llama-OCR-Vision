@@ -2,7 +2,7 @@
 
 
 
-This Python tool extracts text from scanned images using ** Llama OCR (Optical Character Recognition)** with **Together AI**.
+This Python tool extracts text from scanned images using **Llama OCR (Optical Character Recognition)** with **Together AI**.
 
 
 ---
