@@ -20,12 +20,12 @@ st.set_page_config(
 )
 
 # Title and description in main area
-st.title("🦙 Llama OCR")
+st.title("🦙 Llama OCR Vision")
 
 # Add clear button to top right
 col1, col2 = st.columns([6,1])
 with col2:
-    if st.button("Clear 🗑️"):
+    if st.button("Clear text 🗑️"):
         if 'ocr_result' in st.session_state:
             del st.session_state['ocr_result']
         st.rerun()
