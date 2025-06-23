@@ -40,7 +40,7 @@ TOGETHER_API_KEY ="YOUR_KEY"
 
 Replace YOUR_KEY by your copied API key.
 
-You can change the model used in the codes [main.py](https://github.com/nguefackuriel/Llama-OCR-Vision/main.py) and [streamlit_app.py](https://github.com/nguefackuriel/Llama-OCR-Vision/streamlit_app.py) by choosing between: "Llama-3.2-90B-Vision", "Llama-3.2-11B-Vision", "free" 
+You can change the model used in the codes [main.py](https://github.com/nguefackuriel/Llama-OCR-Vision/main.py) and [streamlit_app.py](https://github.com/nguefackuriel/Llama-OCR-Vision/streamlit_app.py) by choosing between: **"Llama-3.2-90B-Vision"**, **"Llama-3.2-11B-Vision"**, **"free"** 
 
 
 
