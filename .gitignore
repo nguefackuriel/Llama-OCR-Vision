@@ -1,0 +1,6 @@
+__pycache__/
+.streamlit/
+.env
+.idea/
+.python-version
+store/
