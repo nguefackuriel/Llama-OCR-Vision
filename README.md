@@ -65,4 +65,4 @@ streamlit run streamlit_app.py
 
 Interface of the streamlit App.
 
-![Interface Preview](https://github.com/nguefackuriel/Llama-OCR-Vision/interface.png)
+![alt text](https://github.com/nguefackuriel/Llama-OCR-Vision/interface.png)
