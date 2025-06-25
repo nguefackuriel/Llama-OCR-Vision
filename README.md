@@ -54,7 +54,7 @@ python main.py input_file.jpg output_file.md
 for example:
 
 ```bash
-python main.py ordo_2.jpg ordo_2_res_free.md
+python main.py ordo_2.jpg ordo_2_free.md
 ```
 
 ### 2. To run the script using streamlit:

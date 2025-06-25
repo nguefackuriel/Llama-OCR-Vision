@@ -23,12 +23,13 @@ def is_remote_file(file_path: str) -> bool:
 async def get_markdown(together_client: AsyncTogether, vision_llm: str, file_path: str) -> str:
     """Generate markdown from image using Together AI."""
     system_prompt = """Convert the provided image into Markdown format. Ensure that all content from the page is included, such as headers, footers, subtexts, images (with alt text if possible), tables, and any other elements.
+    Don`t translate the text, just convert it to Markdown.
 
-    Requirements:
+    Follow exactly these requirements:
 
     - Output Only Markdown: Return solely the Markdown content without any additional explanations or comments.
     - No Delimiters: Do not use code fences or delimiters like ```markdown.
-    - Complete Content: Do not omit any part of the page, including headers, footers, and subtext.
+    - Complete Content: Do not omit any part of the page, including headers, footers, and subtext without explicitly mentioning them.
     """
 
 
@@ -62,7 +63,7 @@ async def ocr(
     file_path: str,
     api_key: Optional[str] = None,
     model: Literal["Llama-3.2-90B-Vision",
-                   "Llama-3.2-11B-Vision", "free"] = "Llama-3.2-90B-Vision"
+                   "Llama-3.2-11B-Vision", "free"] = "Llama-3.2-11B-Vision"
 ) -> str:
     """
     Perform OCR on an image using Together AI.
