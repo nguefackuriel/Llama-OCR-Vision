@@ -165,4 +165,4 @@ else:
 
 # Footer
 st.markdown("---")
-st.markdown("Made with ❤️ using Llama Vision and Together AI | [Report an Issue](https://github.com/Nutlope/llama-ocr/issues)")
+st.markdown("Made with ❤️ using Llama Vision and Together AI | [Report an Issue](https://github.com/nguefackuriel/Llama-OCR-Vision/issues)")

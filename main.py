@@ -108,6 +108,6 @@ if __name__ == "__main__":
         with open(args.output_file, "w", encoding="utf-8") as output_file:
             output_file.write(result)
         
-        print(f"OCR result saved to {args.output_file}")
+        print(f"OCR result was saved to {args.output_file}")
     except Exception as e:
         print(f"Error: {e}")
